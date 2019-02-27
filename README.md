@@ -4,7 +4,7 @@ A helper for performing Visual Regression Test on multiple environments (local, 
 ## Install
 Clone repo and run
 
-    npm install
+    npm install -g
 
 ## Config File
 Edit the config file config.json for declare pages and viewports.
