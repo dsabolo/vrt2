@@ -5,6 +5,13 @@ A helper for performing Visual Regression Test on multiple environments (local, 
 Clone repo and run
 
     npm install -g
+    
+for install it globally.
+
+If you prefer just be installed in your project,  run
+
+    npm install
+    
 
 ## Config File
 Edit the config file config.json for declare pages and viewports.
@@ -16,8 +23,15 @@ Edit the config file config.json for declare pages and viewports.
 Run
 
        vrt2 <site_ref> <site_test>
+       
+if you have not installed globally run
 
-If you want to use other config file, create the custom json file based on config.json and then run
+       ./vrt2.js <site_ref> <site_test>
+
+
+## Multiple test config
+
+You can use others config files (useful for creating a variety of test), create the custom json file based on config.json and then run
 
         vrt2 -c /path/to/config_file.json  <site_ref> <site_test>
         
