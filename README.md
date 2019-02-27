@@ -1,5 +1,5 @@
 # vrt2
-A helper for performing Visual Regression Test on multiple environments (local, dev, stage, prod, etc) using BackstopJS using just one config file.
+A helper for performing Visual Regression Test on multiple environments (local, dev, stage, prod, etc) using [BackstopJS](https://garris.github.io/BackstopJS/) using just one config file.
 
 ## Install
 Clone repo and run
