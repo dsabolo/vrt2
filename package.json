@@ -1,0 +1,33 @@
+{
+  "name": "vrt2",
+  "version": "0.0.1-alpha",
+  "description": "A helper for perform Visual Regression Test on multiple environments using BackstopJS.",
+  "main": "vrt2.js",
+  "scripts": {
+    "test": "vrt2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsabolo/vrt2.git"
+  },
+  "keywords": [
+    "BakstopJs",
+    "VRT",
+    "Regression",
+    "Test"
+  ],
+  "author": "Diego Sabolo (@dsabolo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsabolo/vrt2/issues"
+  },
+  "homepage": "https://github.com/dsabolo/vrt2#readme",
+  "bin": {
+    "vrt2": "./vrt2.js"
+  },
+  "dependencies": {
+    "backstopjs": "^3.8.8",
+    "commander": "^2.19.0",
+    "fs": "0.0.1-security"
+  }
+}
